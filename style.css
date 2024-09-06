@@ -51,12 +51,12 @@ header h1 {
 }
 .tarefa-icone img {
   width: 30px;
-  margin: 18px 0 0 30px;
+  margin: 20px 0 0 30px;
   color: #00ff22;
   cursor: pointer;
 }
 .tarefa-txt h2 {
-  margin-top: 10%;
+  margin-top: 2vh;
   font-size: 24px;
   margin-right: 10px;
 }
@@ -75,6 +75,10 @@ header h1 {
 }
 
 @media (max-width: 768px) {
+  .tarefa-txt h2 {
+    margin-top: 12%;
+    font-size: 23px;
+  }
   header {
     margin-top: 10vh;
   }
