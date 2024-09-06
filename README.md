@@ -1,4 +1,4 @@
-📝 Lista de Tarefas (To-Do List)
+📝 Lista de Tarefas
 Porque quem nunca esqueceu de fazer alguma coisa, né? 😅
 
 O que é isso?
