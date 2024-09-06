@@ -1,0 +1,75 @@
+body {
+  background: #dfdfdfc9;
+}
+header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25vh;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+}
+header h1 {
+  font-size: 40px;
+  margin-left: 70px;
+}
+.tarefa-add {
+  display: flex;
+  margin-bottom: 60px;
+}
+#tarefaVlr {
+  background: #fff;
+}
+.tarefa-add input {
+  height: 90px;
+  width: 350px;
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid #757575;
+  border-radius: 3px;
+}
+.tarefa-add button {
+  padding: 0;
+  height: 94px;
+  width: 90px;
+  background-color: #169e01;
+  color: #fff !important;
+  margin-left: -10px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+}
+.tarefa {
+  display: grid;
+  grid-template-columns: repeat(3, 90px 240px);
+  background: #fff;
+  max-width: 440px;
+  margin-bottom: 3%;
+  box-shadow: 0 0 10px #969494;
+}
+.tarefa-icone img {
+  width: 30px;
+  margin: 22px 5px 0 30px;
+  color: #00ff22;
+  cursor: pointer;
+}
+.tarefa-txt h2 {
+  margin-top: 10%;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.tarefa-del button {
+  background-color: red;
+  height: 100%;
+  color: #fff;
+  width: 110px;
+  border: none;
+  border-radius: 2px;
+}
+.tarefa.clicado {
+  background: #aaf2b5;
+  text-decoration: line-through;
+  color: rgba(70, 69, 69, 0.634);
+}
